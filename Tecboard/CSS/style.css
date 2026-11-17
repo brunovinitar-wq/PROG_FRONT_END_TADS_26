@@ -27,12 +27,23 @@ body {
   color: #fff;
 }
 
-header img {
-  display: block;
-  margin: 75px 0 0 360px;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px 360px 0;
 }
 
-h1 { 
+header img {
+  display: block;    
+}
+
+header span {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+h1 {
   font-size: 64px;
   font-family: "Poppins", sans-serif;
   text-align: center;
